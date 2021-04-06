@@ -204,6 +204,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void compute(){
+        if (info.getText().toString()==""){
+            info.setText("0");
+        }
         if(!Double.isNaN(val1)){
             val2 = Double.parseDouble(info.getText().toString());
             info.setText(result.getText().toString() + String.valueOf(val2));
@@ -226,6 +229,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else{
             val1 = Double.parseDouble(info.getText().toString());
+
         }
     }
 }

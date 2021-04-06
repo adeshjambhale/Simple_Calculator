@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="30dp"
+        android:layout_marginStart="15dp"
         android:background="@drawable/round_btn"
         android:text="9" />
 
@@ -127,31 +127,34 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/btn7"
+        android:layout_marginEnd="10dp"
         android:layout_toEndOf="@+id/btn7"
         android:background="#607D8B"
-        android:textColor="#FFFFFF"
-        android:text="/" />
+        android:text="/"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnmul"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/btn4"
+        android:layout_alignEnd="@+id/btndivide"
         android:layout_toEndOf="@+id/btn4"
         android:background="#607D8B"
-        android:textColor="#FFFFFF"
-        android:text="x" />
+        android:text="x"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnadd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/btn1"
+        android:layout_alignEnd="@+id/btndivide"
         android:layout_alignBottom="@+id/btn1"
         android:layout_toEndOf="@+id/btn1"
         android:background="#607D8B"
-        android:textColor="#FFFFFF"
-        android:text="+" />
+        android:text="+"
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/btnsub"
@@ -159,10 +162,11 @@
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/btnequal"
         android:layout_alignBottom="@+id/btnequal"
+        android:layout_alignEnd="@+id/btndivide"
         android:layout_toEndOf="@+id/btnequal"
         android:background="#607D8B"
-        android:textColor="#FFFFFF"
-        android:text="-" />
+        android:text="-"
+        android:textColor="#FFFFFF" />
 
     <TextView
         android:id="@+id/tvControl"
