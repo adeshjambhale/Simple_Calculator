@@ -19,7 +19,6 @@
 - Hardware and software requirements to run the app on the phone:
   - Android KitKat 4.4 and above.
   - Minimum 1GB RAM.
-  - Internet connectivity
   - 10MB space.
   
 # Status 🗸
